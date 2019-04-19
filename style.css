@@ -1,0 +1,62 @@
+/*
+Theme Name: Patrick's Theme
+Author: Patrick Homburg
+Author URI: http://25467.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/cms/wordpress/
+Version: 1.0.0
+*/
+/*Reset*/
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: #3C0909;
+  color: #BA6666;
+}
+
+a {
+  color: #BD3636;
+}
+
+.wrapper {
+  padding: 1em 1em;
+  max-width: 80%;
+  margin: 0 auto;
+
+  margin-top: -60vh;
+}
+
+header, footer {
+  width: 90%;
+  margin: 0 auto;
+  background: #C48383;
+  color: #5E2E2E;
+  border-radius: 5em;
+  text-align: center;
+}
+
+.post {
+  border-bottom: 1px solid white;
+}
+
+/*No line under last post*/
+.post:last-of-type {
+  border-bottom: 1;
+  border-color: red;
+}
+
+nav {
+  margin-left: -20em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 20%;
+  height: 60vh;
+  width: 10em;
+}
+
+@media only screen and (max-width: 800px) {
+
+}
